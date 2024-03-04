@@ -1106,8 +1106,9 @@
                 </li>
                 <li> <a href="./index.html#abstract" style="color: rgb(255, 255, 255); font-weight: 500">Abstract</a>
                 </li>
-                <li> <a href="./index.html#results" style="color: rgb(255, 255, 255); font-weight: 500">Results</a></li>
+                <!-- <li> <a href="./index.html#results" style="color: rgb(255, 255, 255); font-weight: 500">Results</a></li> -->
                 <li> <a href="./index.html#examples" style="color: rgb(255, 255, 255); font-weight: 500">Examples</a></li>
+                <li> <a href="./index.html#prompts" style="color: rgb(255, 255, 255); font-weight: 500">Prompts</a></li>
                 <li> <a href="./index.html#ethics" style="color: rgb(255, 255, 255); font-weight: 500">Ethics and
                         Disclosure</a></li>
             </ul>
@@ -1183,6 +1184,16 @@
                                         <span>Data (Coming soon)</span>
                                     </a>
                                 </span>
+
+                                <span class="link-block">
+                                    <a href="https://persugpt.github.io/"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                        </span>
+                                        <span>Demo (Coming soon)</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -1218,45 +1229,49 @@
                     <div class="content has-text-justified">
                         Persuasive dialogue requires multi-turn following and planning abilities to achieve the goal of persuading users, which is still challenging even for state-of-the-art large language models (LLMs). Previous works focus on retrieval-based models or generative models in a specific domain due to a lack of data across multiple domains. In this paper, we leverage GPT-4 to create the first multi-domain persuasive dialogue dataset DailyPersuasion. Then we propose a general method named PersuGPT to learn a persuasion model based on LLMs through intent-to-strategy reasoning, which summarizes the intent of user's utterance and reasons next strategy to respond. Moreover, we design a simulation-based preference optimization, which utilizes a learned user model and our model to simulate next turns and estimate their rewards more accurately. Experimental results on two datasets indicate that our proposed method outperforms all baselines in terms of automatic evaluation metric Win-Rate and human evaluation. 
                     </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
 
-
-
-    <section class="section" id="ethics">
-        <!-- Benchmark design. -->
-
+    <section class="section" id="examples">
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="container is-max-desktop">
-                    <h2 class="title is-3">Ethics and Disclosure</h2>
+                    <h2 class="title is-3">Examples</h2>
                     <div class="content has-text-justified">
-
-                        <p>TBD
-                        </p>
+                        Coming soon.
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- <section class="section" id="BibTeX">
-        <div class="container is-max-desktop content">
-            <h2 class="title">BibTeX</h2>
-            <p>
-                If you find our project useful, please consider citing:
-            </p>
-            <pre><code>@misc{zeng2024johnny,
-      title={How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs},
-      author={Zeng, Yi and Lin, Hongpeng and Zhang, Jingwen and Yang, Diyi and Jia, Ruoxi and Shi, Weiyan},
-      year={2024},
-      eprint={2401.06373},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-  }</code></pre>
+    <section class="section" id="prompts">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-desktop">
+                    <h2 class="title is-3">Prompts</h2>
+                    <div class="content has-text-justified">
+                    Coming soon.
+                    </div>
+                </div>
+            </div>
         </div>
-    </section> -->
+    </section>
+
+    <section class="section" id="ethics">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-desktop">
+                    <h2 class="title is-3">Ethics and Disclosure</h2>
+                    <div class="content has-text-justified">
+                        Persuasive dialogue systems serve as a double-edged sword. On one hand, they can be extensively applied in psychological therapy and philanthropic efforts, fostering positive developments within human society. On the other hand, their misuse in potentially harmful scenarios must be strictly regulated. In our study, we filter the keywords used to construct persuasive scenarios, ensuring all generated scenarios are safe and free from bias. We utilize GPT-4, aligned with ethical values, to collect data, hoping to guarantee the gathered data is devoid of user privacy breaches and harmful content as GPT-4. We will ask humans to review all scenarios, dialogues, and strategies before releasing DailyPersuasion and further filter inappropriate or risky data. We will also ask all people or organizations that download the dataset to sign a strict license to manage the use of our data. It is worth noting that, while our system can be employed across various persuasive domains, it should not be used to directly replace human interaction. All applications of our system should operate under human supervision and regulation, maintaining a balance between leveraging technology for good and ensuring ethical use.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer class="footer">
@@ -1277,42 +1292,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open">
-        <style>
-            div.grammarly-desktop-integration {
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                padding: 0;
-                margin: -1px;
-                overflow: hidden;
-                clip: rect(0, 0, 0, 0);
-                white-space: nowrap;
-                border: 0;
-                -moz-user-select: none;
-                -webkit-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-            }
-
-            div.grammarly-desktop-integration:before {
-                content: attr(data-content);
-            }
-        </style>
-        <div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration"
-            data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}">
-        </div>
-    </template></grammarly-desktop-integration>
-
-
-
-
 
 </html>
