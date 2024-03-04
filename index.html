@@ -1085,7 +1085,7 @@
 
 
     <nav class="navbar navbar-default navbar-fixed-top"
-        style="background-color: rgb(255, 249, 239); border-color: white">
+        style="background-color: rgb(174, 11, 42); border-color: white">
 
 
         <div class="navbar-header">
@@ -1096,19 +1096,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand" style="color: rgb(2, 49, 78); font-weight: 800"> Persuasive Jailbreaker</a>
+            <a href="#" class="navbar-brand" style="color: rgb(255, 255, 255); font-weight: 800"> PersuGPT</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li> <a href="./index.html#a_quick_glance" style="color: rgb(2, 49, 78); font-weight: 500">A Quick
+                <li> <a href="./index.html#a_quick_glance" style="color: rgb(255, 255, 255); font-weight: 500">A Quick
                         Glance</a>
                 </li>
-                <li> <a href="./index.html#paper_overview" style="color: rgb(2, 49, 78); font-weight: 500">Overview</a>
+                <li> <a href="./index.html#paper_overview" style="color: rgb(255, 255, 255); font-weight: 500">Overview</a>
                 </li>
-                <li> <a href="./index.html#results" style="color: rgb(2, 49, 78); font-weight: 500">Results</a></li>
-                <li> <a href="./index.html#examples" style="color: rgb(2, 49, 78); font-weight: 500">Examples</a></li>
-                <li> <a href="./index.html#ethics" style="color: rgb(2, 49, 78); font-weight: 500">Ethics and
+                <li> <a href="./index.html#results" style="color: rgb(255, 255, 255); font-weight: 500">Results</a></li>
+                <li> <a href="./index.html#examples" style="color: rgb(255, 255, 255); font-weight: 500">Examples</a></li>
+                <li> <a href="./index.html#ethics" style="color: rgb(255, 255, 255); font-weight: 500">Ethics and
                         Disclosure</a></li>
             </ul>
         </div>
@@ -1126,8 +1126,8 @@
                             Persuading across Diverse Domains: <br> A Dataset and Persuasion Large Language Model
                         </h2>
                         <h4 class="subtitle is-4 " , style="font-weight: 150; font-size:medium">
-                            <br>TLDR: We propose a large-scale cross-domain persuasion dataset covers <span id="highlight"><b>13,000</b></span> scenarios in 35 domains, 
-                            with the developed PersuGPT model achieving the best performance, surpassing GPT-4 in both automatic and manual evaluation.
+                            <br>TLDR: We propose the large-scale cross-domain persuasive dialogue dataset <span id="highlight"><b>DailyPersuasion</b></span>, covering <span id="highlight"><b>13,000</b></span> scenarios in 35 domains. 
+                            The developed persuasion model <span id="highlight"><b>PersuGPT</b></span> surpassing GPT-4 in both automatic and manual evaluation.
                         </h4>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">
@@ -1188,8 +1188,11 @@
         <div class="container is-max-desktop">
             <div class="hero-body">
                 <br>
-                <h2 class="title is-3">Quick Glance of DailyPersuasion Dataset</h2><br>
+                <!-- <h2 class="title is-3">Quick Glance of DailyPersuasion Dataset</h2><br> -->
                         <img src="./website/images/main_fig.png" alt="">
+                        <h2 class="subtitle has-text-centered">
+                            Quick Glance of Proposed <span class="dnerf">DailyPersuasion</span> Dataset.
+                          </h2>
                 <!-- <video id="teaser" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
                     <source src="./website/videos/paps_demo.mp4" type="video/mp4">
                 </video> -->
@@ -1198,6 +1201,16 @@
     </div>
     </section>
 
+    <section class="section" id="abstract">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="container is-max-desktop">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        Persuasive dialogue requires multi-turn following and planning abilities to achieve the goal of persuading users, which is still challenging even for state-of-the-art large language models (LLMs). Previous works focus on retrieval-based models or generative models in a specific domain due to a lack of data across multiple domains. In this paper, we leverage GPT-4 to create the first multi-domain persuasive dialogue dataset DailyPersuasion. Then we propose a general method named PersuGPT to learn a persuasion model based on LLMs through intent-to-strategy reasoning, which summarizes the intent of user's utterance and reasons next strategy to respond. Moreover, we design a simulation-based preference optimization, which utilizes a learned user model and our model to simulate next turns and estimate their rewards more accurately. Experimental results on two datasets indicate that our proposed method outperforms all baselines in terms of automatic evaluation metric Win-Rate and human evaluation. 
+                    </div>
+    </section>
+    
 
 
 
