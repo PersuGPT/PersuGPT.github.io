@@ -18,7 +18,7 @@
 
 ## Introduction
 
-**TLDR:** We propose a large-scale cross-domain persuasion dataset covers **13,000** scenarios in 35 domains, with the developed PersuGPT model achieving the best performance, surpassing GPT-4 in both automatic and manual evaluation.
+**TL;DR:** We propose a large-scale cross-domain persuasion dataset covers **13,000** scenarios in 35 domains, with the developed PersuGPT model achieving the best performance, surpassing GPT-4 in both automatic and manual evaluation.
 
 <br>
 
