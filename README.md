@@ -10,19 +10,11 @@
 </p>
 <p align='center' style="text-align:center;font-size:2.5 em;">
 <b>
-    <a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Paper (Coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a>
+    <a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Paper (Coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a></br><a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Dataset (Coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Demo (Coming soon)]</a>
 </b>
 </p>
 
 ------------
-
-
-## Reproducibility and Codes
-
-TBD
-
-<br>
-<br>
 
 ## Introduction
 
@@ -35,13 +27,18 @@ Experimental results on two datasets indicate that our proposed method outperfor
 
 
 ## A Quick Glance
-
+<p align="center">
+<img src="./website/images/main_fig.png" alt="main_figure" width="90%"/>
+</p>
+<p align="center">
+<font size=3 >Quick Glance of Proposed DailyPersuasion Dataset.</font>
+</p>
 
 <br>
 
 
 ## Ethics and Disclosure
-
+Persuasive dialogue systems serve as a double-edged sword. On one hand, they can be extensively applied in psychological therapy and philanthropic efforts, fostering positive developments within human society. On the other hand, their misuse in potentially harmful scenarios must be strictly regulated. In our study, we filter the keywords used to construct persuasive scenarios, ensuring all generated scenarios are safe and free from bias. We utilize GPT-4, aligned with ethical values, to collect data, hoping to guarantee the gathered data is devoid of user privacy breaches and harmful content as GPT-4. We will ask humans to review all scenarios, dialogues, and strategies before releasing DailyPersuasion and further filter inappropriate or risky data. We will also ask all people or organizations that download the dataset to sign a strict license to manage the use of our data. It is worth noting that, while our system can be employed across various persuasive domains, it should not be used to directly replace human interaction. All applications of our system should operate under human supervision and regulation, maintaining a balance between leveraging technology for good and ensuring ethical use.
 
 
 ## Citation
