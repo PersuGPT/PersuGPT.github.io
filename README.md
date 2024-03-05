@@ -15,6 +15,7 @@
 </p>
 
 ------------
+<b>Important: </b>We are manually inspecting the dailypersuasion data set, and we will open source the corresponding data, code, and models as soon as possible.
 
 ## Introduction
 
