@@ -22,9 +22,9 @@ Experimental results on two datasets indicate that our proposed method outperfor
 
 
 ## ***News***
-- *09/18/2024* 🌟 Some DDL makes me burn out😭....We will release the code/model/DailyPersuasion(Chinese Version) before 10/31/2024!
-- *05/16/2024* 🎉 Our DailyPersuasion and PersuGPT are accepted by ACL 2024!
-- *03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
+*09/18/2024* 🌟 Some DDL makes me burn out😭....We will release the code/model/DailyPersuasion(Chinese Version) before 10/31/2024!
+*05/16/2024* 🎉 Our DailyPersuasion and PersuGPT are accepted by ACL 2024!
+*03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
 
 ## A Quick Glance
 <p align="center">
