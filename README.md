@@ -22,9 +22,9 @@ Experimental results on two datasets indicate that our proposed method outperfor
 
 
 ## ***News***
-*09/18/2024* 🌟 Some DDL makes me burn out😭....We will release the code/model/DailyPersuasion(Chinese Version) before 10/31/2024!
-*05/16/2024* 🎉 Our DailyPersuasion and PersuGPT are accepted by ACL 2024!
-*03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
+- *09/18/2024* 🌟 Some DDL makes me burn out😭....We will release the code/model/DailyPersuasion(Chinese Version) before 10/31/2024!
+- *05/16/2024* 🎉 Our DailyPersuasion and PersuGPT are accepted by ACL 2024!
+- *03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
 
 ## A Quick Glance
 <p align="center">
@@ -45,7 +45,26 @@ Persuasive dialogue systems serve as a double-edged sword. On one hand, they can
 If you find this useful in your research, please consider citing:
 
 ```
-Coming soon.
+@inproceedings{jin-etal-2024-persuading,
+    title = "Persuading across Diverse Domains: a Dataset and Persuasion Large Language Model",
+    author = "Jin, Chuhao  and
+      Ren, Kening  and
+      Kong, Lingzhen  and
+      Wang, Xiting  and
+      Song, Ruihua  and
+      Chen, Huan",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.92",
+    pages = "1678--1706",
+    abstract = "Persuasive dialogue requires multi-turn following and planning abilities to achieve the goal of persuading users, which is still challenging even for state-of-the-art large language models (LLMs). Previous works focus on retrieval-based models or generative models in a specific domain due to a lack of data across multiple domains. In this paper, we leverage GPT-4 to create the first multi-domain persuasive dialogue dataset DailyPersuasion. Then we propose a general method named PersuGPT to learn a persuasion model based on LLMs through intent-to-strategy reasoning, which summarizes the intent of user{'}s utterance and reasons next strategy to respond. Moreover, we design a simulation-based preference optimization, which utilizes a learned user model and our model to simulate next turns and estimate their rewards more accurately. Experimental results on two datasets indicate that our proposed method outperforms all baselines in terms of automatic evaluation metric Win-Rate and human evaluation. The code and data are available at https://persugpt.github.io.",
+}
 ```
 
 <br><br>
