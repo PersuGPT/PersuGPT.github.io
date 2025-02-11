@@ -8,7 +8,7 @@ Chuhao Jin, Kening Ren, Lingzhen Kong, Xiting Wang, Ruihua Song, Huan Chen<br/>
 </p>
 <p align='center' style="text-align:center;font-size:2.5 em;">
 <b>
-    <a href="https://aclanthology.org/2024.acl-long.92.pdf" target="_blank" style="text-decoration: none;">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a></br><a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Dataset]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Demo (Coming soon)]</a>
+    <a href="https://aclanthology.org/2024.acl-long.92.pdf" target="_blank" style="text-decoration: none;">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Project Page]</a></br><a href="https://persugpt.github.io/" target="_blank" style="text-decoration: none;">[Dataset]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://persugpt.mmd.ac.cn:7860/" target="_blank" style="text-decoration: none;">[Demo]</a>
 </b>
 </p>
 
@@ -35,6 +35,11 @@ You can download the checkpoint of PersuGPT from [here](https://huggingface.co/C
 Please move the checkpoint to ```ckpt```, and run the following command:
 ```shell
 bash web_demo.sh
+```
+
+You can also run the following command for cli demo:
+```shell
+bash cli_demo.sh
 ```
 
 ## Requirements
