@@ -28,7 +28,7 @@ Experimental results on two datasets indicate that our proposed method outperfor
 - *03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
 
 ## Download
-You can download the checkpoint of PersuGPT from [here](https://huggingface.co/Chuhaojin/PersuGPT).
+Click to download the checkpoint of [PersuGPT](https://huggingface.co/Chuhaojin/PersuGPT), and [DaliyPersuasion](https://github.com/PersuGPT/PersuGPT.github.io/blob/main/DailyPersuasion_full_version.zip) dataset.
 
 
 ## Inference
