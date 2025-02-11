@@ -22,9 +22,44 @@ Experimental results on two datasets indicate that our proposed method outperfor
 
 
 ## ***News***
-- *09/18/2024* 🌟 Some DDL makes me burn out😭....We will release the code/model/DailyPersuasion(Chinese Version) before 10/31/2024!
+
+- *02/11/2025* 🌟 We release the PersuGPT model and inference code, as well as an online [demo](http://persugpt.mmd.ac.cn:7860/)!
 - *05/16/2024* 🎉 Our DailyPersuasion and PersuGPT are accepted by ACL 2024!
 - *03/29/2024* 🌟 We release the English version of the DailyPersuasion dataset!
+
+## Download
+You can download the checkpoint of PersuGPT from [here](https://huggingface.co/Chuhaojin/PersuGPT).
+
+
+## Inference
+Please move the checkpoint to ```ckpt```, and run the following command:
+```shell
+bash web_demo.sh
+```
+
+## Requirements
+
+```
+transformers>=4.36.2
+datasets>=2.14.3
+accelerate>=0.21.0
+peft>=0.7.0
+trl>=0.7.6
+gradio>=3.38.0,<4.0.0
+scipy
+sentencepiece
+protobuf
+tiktoken
+jieba
+rouge-chinese
+nltk
+uvicorn
+pydantic
+fastapi
+sse-starlette
+matplotlib
+```
+
 
 ## A Quick Glance
 <p align="center">
